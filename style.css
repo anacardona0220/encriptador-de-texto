@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100%;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+header {
+  
+   width: 100%;
+  
+}
+
+header img{
+    width: 15%;
+    margin-left: 50px;
+    padding: 30px;
+   
+} 
+
+header h1{
+    
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    
+}
+
+main {
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.escribirTexto{
+   
+    padding: 20px 0;
+    margin: 20px 0;
+    
+}
+
+#copiar{
+    display: none;
+}
+
+#limpiar{
+    display: none;
+}
+
+
+
+section{
+    height: 100%;
+    margin: 0 40px;
+    background-color: bisque;
+}
+
+.section1{
+    width: 50%;
+}
+
+.section2 {
+    width: 40%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1.5em;
+    background-color: white;
+}
+
+    
+  
+.contenedorImagen {
+    text-align: center; 
+  }
+  
+.contenedorImagen img {
+    max-width: 90%;
+    height: auto; 
+  }
+
+  .contenedorTexto{
+    text-align: center;
+  }
+
+  .textInput {
+    width: 70%;
+    padding: 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 1.5em;
+    
+  }
+
+  .textArea{
+    width: 70%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+  }
+
+  .contenedorTextoEncriptado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+    margin: 10px 0;
+    
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+   
+  }
+
+  .contenedorTextoEncriptado button{
+    flex: 1;
+    margin-right: 10px;
+    width: 300px; 
+    height: 30px; 
+    font-size: 1em; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .contenedorTextoResultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+    margin: 10px 0;
+    
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+   
+  }
+
+  .contenedorLimpiarCopiar{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+  }
+
+  .contenedorLimpiarCopiar button{
+        flex: 1;
+        margin: 5px;
+        width: 330px; 
+        height: 40px; 
+        font-size: 1em; 
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: center;
+    
+  }
+
+  footer{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+footer img{
+    height: 150px;
+}
+
+ 

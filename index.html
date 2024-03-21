@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="encriptador.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="">
+        <h1 class="tituloPrincipal">Encriptador de texto</h1>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="contenedorTexto">
+                <div class="contenedorTextoEncriptado">
+
+                    <h2>Escribe el texto que deseas encriptar</h2>
+                    <input type="text" id="tEncriptado" class="textInput">
+                    <button type="button" id="encriptar" class="bEncriptado">Encriptar</button>
+                </div>
+                <div class="contenedorTextoEncriptado">
+
+                    <h2>Escribe el texto que deseas desencriptar</h2>
+                    <input type="text" id="tDesencriptado" class="textInput">
+                    <button type="button" id="desencriptar" class="bDesencriptado">Desencriptar</button>
+                </div>
+                <div class="contenedorTextoResultado">
+
+                    <textarea name="texto" id="resultadoTexto" class="textArea" ="30" rows="10"></textarea>
+                    <div class="contenedorLimpiarCopiar">
+
+                        <button type="button" id="copiar">Copiar</button>
+                        <button type="button" id="limpiar">Limpiar</button> 
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section2">
+            <div class="contenedorImagen">
+                <img src="img/busqueda.png" alt="Muñeco busqueda" >
+                <h3>No encontramos mensajes</h3>
+                <p>Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+           
+        </section>
+
+        
+    
+    </main>
+        <footer>
+            <img src="img/aluraoracle.jpg"  alt="logo alura+oracle" class="logoAlulaOracle"></Img>
+            
+        </footer>
+
+</body>
+<script>
+    let btn = document.getElementById("encriptar");
+    btn.onclick = encriptadorDeTexto;
+    let btn1 = document.getElementById("desencriptar");
+    btn1.onclick = desencriptadorDeTexto;
+    let btn2 = document.getElementById("copiar");
+    btn2.onclick = textCopy;
+    let btn3 = document.getElementById("limpiar");
+    btn3.onclick = limpiar;
+
+</script>
+</html>
